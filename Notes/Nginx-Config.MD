@@ -17,6 +17,14 @@ server{
 
 ## Letencrypt
 
+generate ssl
+
 ```
  certbot certonly  -d *.xxx.com --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory
+ ```
+ 
+ transport to sliyun oss privikey
+ 
+ ```
+ openssl rsa -in privkey.pem -out new_privkey.pem
  ```
