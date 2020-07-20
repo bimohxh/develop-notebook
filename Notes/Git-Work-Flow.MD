@@ -199,3 +199,4 @@ Best practices
 
 # Refer
 - http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html
+- https://github.com/angular/angular/blob/master/CONTRIBUTING.md
